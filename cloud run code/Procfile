@@ -1,0 +1,1 @@
+web: gunicorn --bind :443 --workers 1 --threads 8 --timeout 0 main:app --preload
