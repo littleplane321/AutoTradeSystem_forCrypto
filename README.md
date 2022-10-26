@@ -1,4 +1,4 @@
-# auto-trade-system-for-Crypto
+# AutoTradeSystem_forCrypto
 
 這個系統使用 tradingview 的 pine Script 判斷下單時間，之後將下單訊號透過 tradingview 的 Webhook Alert 功能傳送至 google cloud run 處理後使用 Binance api 往幣安下單。
 
