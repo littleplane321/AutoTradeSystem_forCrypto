@@ -22,7 +22,7 @@
 
 ## 策略介紹
 ### SuperTrend tunnal strategy
-使用 SuperTrend 56 (Multiplier 3) 及 SuperTrend 200 (Multiplier 3) 作為通道使用如果56及200皆出現買進訊號則買進，皆出現賣出訊號則賣出。
+使用平均K線的 SuperTrend 56 (Multiplier 3) 及 SuperTrend 200 (Multiplier 3) 作為通道使用如果56及200皆出現買進訊號則買進，皆出現賣出訊號則賣出。
 這個策略也有止盈功能，當手上有多單時56下穿200則部分止盈，持有賣單則反之。(使用此功能需要勾起設定頁面中的Is TakeProfit)
 
 #### 策略 BackTest 結果:
